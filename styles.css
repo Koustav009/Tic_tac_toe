@@ -1,0 +1,48 @@
+/* Add styling for the game board */
+body {
+    background-color: #5CDB95;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: "Bradley Hand ITC", cursive;
+  }
+  #players p {
+    text-align: center;
+    font-family: "Arial Rounded MT Bold", cursive;
+    color: #05386B; /* Change the color to blue */
+  }
+  #turn p {
+    text-align: center;
+    font-family: "Arial Rounded MT Bold", cursive;
+    color: #05386B; /* Change the color to blue */
+  }
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 300px;
+    height: 300px;
+    margin:  auto;
+    background-color: #05386B;
+    border: 2.5px solid #5CDB95;
+  }
+  
+  .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    border: 1px solid #5CDB95;
+    font-family: "Bradley Hand ITC", cursive;
+    color: #5CDB95; /* Change the color for X */
+  }
+  
+  .cell:hover {
+    background-color: #002e5d; /* Change the background color on hover */
+  }
+  
+  .cell.O {
+    color: #5CDB95; /* Change the color for O */
+  }

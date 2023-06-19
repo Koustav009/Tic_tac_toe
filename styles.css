@@ -1,20 +1,23 @@
 /* Add styling for the game board */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Varela+Round&display=swap');
 body {
-    background-color: #5CDB95;
+    background-color: #5cdb95;
   }
   
   h1 {
-    text-align: center;
-    font-family: "Bradley Hand ITC", cursive;
+    font-family: 'Varela Round', cursive;
+  }
+  h2 {
+    font-family: 'Varela Round', cursive;
   }
   #players p {
     text-align: center;
-    font-family: "Arial Rounded MT Bold", cursive;
+    font-family: "Varela Round", cursive;
     color: #05386B; /* Change the color to blue */
   }
   #turn p {
     text-align: center;
-    font-family: "Arial Rounded MT Bold", cursive;
+    font-family: "Varela Round", cursive;
     color: #05386B; /* Change the color to blue */
   }
   .board {
@@ -35,7 +38,7 @@ body {
     font-size: 50px;
     cursor: pointer;
     border: 1px solid #5CDB95;
-    font-family: "Bradley Hand ITC", cursive;
+    font-family: "Varela Round", cursive;
     color: #5CDB95; /* Change the color for X */
   }
   
